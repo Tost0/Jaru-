@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UwU</title>
+<script>
+function calculateDistance() {
+    do {
+        let x1 = parseFloat(prompt("Podaj  X1:"));
+        let y1 = parseFloat(prompt(" Podaj Y1:"));
+        let x2 = parseFloat(prompt ("Podaj X2:"));
+        let y2 = parseFloat (prompt("Podaj Y2:"));
+        let distance = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
+        let roundedDistance = Math.round(distance);
+        alert(`Odległość między punktami: ${roundedDistance}`);
+    } while (confirm("Obliczyć nowy punkt?"));
+}
+</script>
+</head>
+<body onload="calculateDistance()">
+<h1>Odległość między punktami</h1>
+</body>
+</html>
+
+<!--Kacper Ościk-->
