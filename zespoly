@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nu Metal - Najważniejsze Zespoły</title>
+<style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #121212;
+      color: #f0f0f0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #ff4444;
+    }
+    .band {
+      margin-bottom: 40px;
+      border-bottom: 1px solid #333;
+      padding-bottom: 20px;
+    }
+    img {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    .band-name {
+      color: #ffdd57;
+      font-size: 24px;
+      margin-top: 10px;
+    }
+    .description {
+      font-size: 16px;
+      line-height: 1.6;
+    }
+</style>
+</head>
+<body>
+
+<h1>Najważniejsze Zespoły Nu Metalowe</h1>
+
+<div class="band">
+<div class="band-name">Linkin Park</div>
+<div class="description">
+Linkin Park to jeden z najbardziej znanych zespołów nu metalowych, który zdobył światową sławę dzięki albumowi "Hybrid Theory" (2000). Ich styl łączył ciężkie riffy, elektronikę i rap.
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/26/Linkin_Park_Rock_im_Park_2014_%2813%29.jpg" alt="Linkin Park">
+</div>
+
+<div class="band">
+<div class="band-name">Korn</div>
+<div class="description">
+Korn to pionierzy gatunku nu metal. Ich debiutancki album z 1994 roku wyznaczył nowe kierunki w muzyce alternatywnej, wprowadzając ciężkie brzmienia i emocjonalny wokal.
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bd/Korn%2C_Metaltown_2011.jpg" alt="Korn">
+</div>
+
+<div class="band">
+<div class="band-name">Limp Bizkit</div>
+<div class="description">
+Limp Bizkit to jeden z najbardziej kontrowersyjnych i jednocześnie popularnych zespołów nurtu. Ich miks rapu, metalu i energicznych występów scenicznych zdobył rzesze fanów.
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Limp_Bizkit_-_Rock_am_Ring_2013-06-07_-_02.jpg" alt="Limp Bizkit">
+</div>
+
+<div class="band">
+<div class="band-name">Slipknot</div>
+<div class="description">
+Slipknot znani są ze swojego brutalnego brzmienia, maskowanych występów i intensywnej energii scenicznej. Choć ich muzyka wykracza poza nu metal, są silnie z nim kojarzeni.
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Slipknot_-_Rock_am_Ring_2019-4067.jpg" alt="Slipknot">
+</div>
+
+<div class="band">
+<div class="band-name">Deftones</div>
+<div class="description">
+Deftones wnieśli do nu metalu elementy shoegaze'u i dream popu. Ich unikalne podejście do muzyki i tekstów uczyniło ich jednym z najbardziej cenionych zespołów w gatunku.
+</div>
+<img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/Deftones-Rock_am_Ring_2016-AL2885.jpg" alt="Deftones">
+</div>
+
+</body>
+</html>
